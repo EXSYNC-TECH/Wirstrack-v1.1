@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  padding: 20px 72px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.06);
+  justify-content: space-between;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-flex;
+  margin: 0 20px;
+}
+nav ul li .menu {
+  text-decoration: none;
+  color: #101828;
+}
+nav ul li .kontak {
+  text-decoration: none;
+  color: #F9FAFB;
+  background-color: #175CD3;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+
+.body {
+  margin: 78px 73px 0 73px;
+}
+.body .split {
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+}
+.body .split .splitLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.body .split .splitLeft h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 66px;
+  width: 504px;
+  color: #344054;
+}
+.body .split .splitLeft p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  width: 443px;
+  color: #98A2B3;
+}
+.body .split .splitLeft a {
+  background-color: #175CD3;
+  padding: 16px 37px 17px 36px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FCFCFD;
+  width: 177px;
+  text-align: center;
+  border-radius: 8px;
+}
+.body .split .splitRight {
+  margin: 66px 0 0 0;
+}
+
+.shape {
+  display: flex;
+  background-color: #EFF8FF;
+  width: 100%;
+  height: 310px;
+  margin-top: -17rem;
+}
+
+#foot {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.06);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  padding: 59px 73px 78px 73px;
+}
+#foot .split {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+#foot .split .splitLeft p {
+  margin: 18px 0;
+  width: 289px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+  color: #475467;
+}
+#foot .split .splitLeft .sosmed {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+#foot .split .splitRight {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+#foot .split .splitRight .perusahaan {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#foot .split .splitRight .perusahaan h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1570EF;
+}
+#foot .split .splitRight .perusahaan a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #475467;
+}
+#foot .split .splitRight .bantuan {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+#foot .split .splitRight .bantuan h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1570EF;
+}
+#foot .split .splitRight .bantuan a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #475467;
+}
+#foot .split .garis {
+  height: 260px;
+  width: 0px;
+  border: 1px solid #E2E8F0;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+#foot hr {
+  margin: 36px 0 39px 0;
+  border: 1px solid #E2E8F0;
+}
+#foot .copyright p {
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #71717A;
+}/*# sourceMappingURL=style.css.map */
